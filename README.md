@@ -8,7 +8,7 @@
 
 ---
 
-## 1. 설명
+## 1.📌 설명
 Streamlit에서 이미지 업로드/카메라 촬영으로 입력하면,
 Hugging Face ViT 모델이 Top-K 분류 결과를 확률/차트로 시각화해주는 웹 앱입니다.
 
@@ -73,17 +73,20 @@ python -m pip install --upgrade pip
 
 ## 6. requirements.txt
 - numpy 2.x 환경에서 일부 라이브러리가 충돌해서 고정
-numpy<2
-streamlit
+
+```text
+numpy<2reamlit
 transformers
 torch
 pillow
 pandas
 altair
 
+--
+```
 ---
 
-## 🟨 7. 특이사항
+7. ## 🟨 특이 사항
 1) 모델 캐싱(st.cache_resource)
 - Streamlit은 입력이 바뀔 때마다 스크립트를 위에서 아래로 다시 실행합니다. 모델을 매번 다시 로드하면 너무 느려져서 캐싱으로 해결했습니다.
 
