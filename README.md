@@ -1,3 +1,5 @@
+![Streamlit](example.png)
+
 # 🏞️ Streamlit 이미지 분류기 (Vision Transformer)
 
 사용자가 웹에서 이미지를 업로드 또는 카메라로 촬영하면, Hugging Face 사전학습 모델로   
