@@ -1,4 +1,4 @@
-![Streamlit]()
+![Streamlit](example.png)
 
 # 🏞️ Streamlit 이미지 분류기 (Vision Transformer)
 
