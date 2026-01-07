@@ -1,0 +1,7 @@
+numpy<2
+streamlit
+transformers
+torch
+pillow
+pandas
+altair
